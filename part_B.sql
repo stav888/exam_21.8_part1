@@ -1,17 +1,17 @@
   create table televisions(
-  id INT serial not NULL PRIMARY KEY,
+  id serial not NULL PRIMARY KEY,
   catalog_number INT not NULL UNIQUE,
   brand TEXT not NULL,
   model TEXT not NULL,
   screen_size INT,
-  resultion TEXT CHECK (resolution IN ('4K', '8K', 'Full HD')),
-  price INT not NULL,
+  resoltion TEXT CHECK (resolution IN ('4K', '8K', 'Full HD')),
+  price DECIMAL not NULL,
   stock_quantity INT DEFAULT 0,
-  relese_year INT not NULL,
-  smart_tv TEXT NULL,
+  relesae_year INT not NULL,
+  smart_tv BOOLEAN DEFAULT FALSE,
   os TEXT NULL,
   panel_type TEXT CHECK (panel_type IN ('OLED', 'QLED', 'LED'))
-)
+);
 
 insert into televisions(catalog_number, brand, model, price, relese_year, ) VALUES()
 
