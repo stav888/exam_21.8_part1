@@ -1,4 +1,4 @@
-create table televisions(
+  create table televisions(
   id INT serial not NULL PRIMARY KEY,
   catalog_number INT not NULL UNIQUE,
   brand TEXT not NULL,
@@ -6,7 +6,7 @@ create table televisions(
   screen_size INT,
   resultion TEXT CHECK (resolution IN ('4K', '8K', 'Full HD')),
   price INT not NULL,
-  stock_quantity INT,
+  stock_quantity INT DEFAULT 0,
   relese_year INT not NULL,
   smart_tv TEXT NULL,
   os TEXT NULL,
