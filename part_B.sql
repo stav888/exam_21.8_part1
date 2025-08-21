@@ -22,19 +22,19 @@ CREATE TABLE storage(
 INSERT INTO televisions (catalog_number, brand, model, screen_size, resolution, release_year, smart_tv, os, panel_type)
 VALUES ('TV1', 'Xiaomi', 'SQ32CR', 65, 'Full HD', 2022, TRUE, 'MI', 'QLED');
 
-INSERT INTO televisions (catalog_number, brand, model, screen_size, resolution, price, release_year, smart_tv, os, panel_type)
+INSERT INTO televisions (catalog_number, brand, model, screen_size, resolution, release_year, smart_tv, os, panel_type)
 VALUES ('TV2', 'Samsung', 'KV80C', 80, '4K', 2023, TRUE, 'Tizen', 'LED');
 
-INSERT INTO televisions (catalog_number, brand, model, screen_size, resolution, price, release_year, smart_tv, os, panel_type)
+INSERT INTO televisions (catalog_number, brand, model, screen_size, resolution, release_year, smart_tv, os, panel_type)
 VALUES ('TV3', 'Hisense', 'R76DC', 90, '8K', 2025, FALSE, 'Android', 'OLED');
 
 INSERT INTO storage (television_id, stock_quantity, price)
 VALUES (1, 9, 1199.99);
 
-INSERT INTO storage (television_id, stock_quantity)
+INSERT INTO storage (television_id, stock_quantity, price)
 VALUES (2, 4, 1600.00);
 
-INSERT INTO storage (television_id, stock_quantity)
+INSERT INTO storage (television_id, stock_quantity, price)
 VALUES (3, 3, 2200.00);
 
 select * from televisions
