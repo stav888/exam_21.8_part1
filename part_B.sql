@@ -1,6 +1,6 @@
 CREATE TABLE televisions(
   id SERIAL PRIMARY KEY,
-  catalog_number VARCHAR NOT NULL UNIQUE,
+  catalog_number TEXT NOT NULL UNIQUE,
   brand TEXT NOT NULL,
   model TEXT NOT NULL,
   screen_size INT NOT NULL,
