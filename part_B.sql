@@ -3,7 +3,7 @@ CREATE TABLE televisions(
   catalog_number VARCHAR NOT NULL UNIQUE,
   brand TEXT NOT NULL,
   model TEXT NOT NULL,
-  screen_size INT,
+  screen_size INT NOT NULL,
   resolution TEXT CHECK (resolution IN ('4K', '8K', 'Full HD')),
   price DECIMAL NOT NULL,
   stock_quantity INT DEFAULT 0,
