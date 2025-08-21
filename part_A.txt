@@ -14,4 +14,6 @@
 
 8. What is the purpose of DEFAULT when creating a table? - 1
 
-9. Which JOIN query returns all records from both tables, even if there is no match between them? -
+9. Which JOIN query returns all records from both tables, even if there is no match between them? - 4
+
+10. What is CHECK in SQL? - 1
