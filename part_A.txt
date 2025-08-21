@@ -1,5 +1,9 @@
-1. What is the difference between HAVING and WHERE? - 1
+1. What is the difference between having and where? - 1
 
-2. What is the difference between RIGHT JOIN and LEFT JOIN? - 1
+2. What is the difference between right join and left join? - 1
 
-3. What is the purpose of DISTINCT in SQL? - 2
+3. What is the purpose of distinct in SQL? - 2
+
+4. How can you limit the number of rows returned in SQLite? - 2
+
+5. What is a foreign key, and what is its purpose? - 1
