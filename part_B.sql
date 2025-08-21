@@ -37,8 +37,6 @@ VALUES (2, 4, 1600.00);
 INSERT INTO storage (television_id, stock_quantity, price)
 VALUES (3, 3, 2200.00);
 
-select * from televisions
-
 
 SELECT *
 FROM televisions t
